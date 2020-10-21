@@ -18,6 +18,11 @@ $ go run hash/main.go
 $ go run xml/main.go
 ```
 
+### サムネイル用の画像出力
+```
+$ go run cnvImage/main.go
+```
+
 ## javaでの実行テスト
 /javaで実行する  
 ※Java環境が入っている場合はdockerの処理は飛ばしても問題ありません。
@@ -49,4 +54,12 @@ $ java Hash
 $ javac DataSet.java
 $ javac Xml.java
 $ java Xml
+```
+
+
+### サムネイル用の画像出力
+
+```
+$ javac ImageConvert.java
+$ java ImageConvert
 ```
